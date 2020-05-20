@@ -8,6 +8,7 @@ import requests
 from lxml import etree
 import pandas as pd
 from retrying import retry
+import openpyxl
 
 class LaGou():
     def __init__(self,job,pages):
